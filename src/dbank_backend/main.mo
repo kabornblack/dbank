@@ -1,10 +1,13 @@
 import Debug "mo:base/Debug";
 import Time "mo:base/Time";
 import Float "mo:base/Float";
+import Nat "mo:base/Nat";
+
 
 actor DBank {
   stable var currentValue: Float = 300;
   // currentValue := 300;
+  // Debug.print(debug_show(currentValue));
 
   stable var startTime = Time.now();
 
